@@ -1,0 +1,20 @@
+{
+    "name": "navettabot",
+    "version": "0.0.1-SNAPSHOT",
+    "author": "Tuomas Tynkkynen <tuomas.tynkkynen@iki.fi>",
+    "description": "Dota 2 IRC Bridge",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dezgeg/NavettaBot.git"
+    },
+    "dependencies" : {
+        "dota2": "0.4.1",
+        "steam": "0.6.5",
+        "zmq":   "2.5.1",
+        "irc":   "0.3.6"
+    },
+    "license": "GPL v2",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
